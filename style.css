@@ -1,0 +1,318 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Merriweather:wght@300&family=Poppins:wght@300&family=Rancho&family=Roboto:ital,wght@1,100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Josefin+Sans&family=Merriweather:wght@300&family=Poppins:wght@300&family=Rancho&display=swap');
+
+
+
+
+*{
+    margin: 0 ;
+    padding: 0 ;
+}
+
+
+.sidebar{
+    position: absolute;
+    background-color: rgb(117, 107, 113);
+    
+    font-family: 'Bree Serif', serif;
+    height: 100vh;
+    transition: transform 0.3s ease-in;
+}
+.sidebar nav{
+    padding: 1px;
+
+
+}
+.sidebar nav li{
+    list-style: none;
+    font-size: 25px ;
+    padding: 33px ;
+
+}
+
+.sidebar nav li a{
+
+    text-decoration: none;
+    color: rgb(248, 239, 239);
+
+}
+
+
+.main{
+    /*background-color: rgb(223, 104, 104);*/
+    width: 40vw;
+     ;
+}
+
+.container{
+
+    display: flex;
+
+
+}
+
+.infocontainer{
+    /*background-color: rgb(131, 50, 50);*/
+    height: 68vh;
+    width: 70vw;
+    margin: 144px;
+    display: flex;
+    justify-content: space-around ;
+}
+
+.devinfo{
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Josefin Sans', sans-serif;
+
+}
+
+
+.name{
+    font-size: 3em;
+    font-weight: bold;
+    font-family: 'Bree Serif', serif;
+}
+.Hello{
+    font-size: 3em;
+}
+.about{
+    margin-top: 2.5em;
+    font-size: 40px;
+}
+
+.moreabout{
+    margin-top: 2.2em;
+    font-size: 22px;
+    font-family: 'Bree Serif', serif;
+}
+
+.button{
+    margin-top: 34px;
+    font-size: 16px;
+   
+}
+
+.btn {
+    padding: 9px 14px;
+    border-radius: 22px;
+    color: white;
+    background-color: dimgrey;
+    font-weight: bold;
+    font-size: 2em;
+    margin: 3px 3px;
+    cursor: pointer;
+}
+.btn-sm{
+    font-size: 10px;
+    padding: 7px 13px;
+    margin: 10px 0;
+}
+.btn:hover{
+   
+ background-color: white;
+color: dimgrey;
+
+}
+
+
+.devpic{
+    
+    height:58vh ;
+     
+}
+
+
+/*contactform start style*/
+
+.contactform{
+    
+    
+    padding: 0 54px;
+    font-family: 'Josefin Sans', sans-serif;
+    margin: 150px 88px;
+    
+}
+.contactform h1{
+/*padding: 12px 0;*/
+font-family: 'Bree Serif', serif;  
+margin-block-start: initial;
+margin-top: -108px;
+ 
+}
+.contactform form{
+margin: 0 40px;
+
+ 
+}
+
+.contactform form div{
+padding: 15px 0;  
+  display: flex;
+  flex-direction: column;
+}
+.contactform form div input{
+/*width: 26vw 0; */
+border-radius: 10px;
+margin: 6px 0 0;
+padding: 3px; 
+ 
+}
+
+#emailHelp{
+    font-size: 10px;
+    color: rgb(2, 119, 187);
+    margin: 0 5px;
+    padding: 3px 0 0;
+}
+#form-check{
+    flex-direction: row;
+    
+}
+#form-check input{
+width: 24px;
+margin: 3px 0;
+
+}
+
+.blogcontainer h1{
+    font-family: 'Josefin Sans', sans-serif;
+
+}
+.blogcontainer{
+    margin: 0 88px;
+}
+
+
+.blogItem{
+    margin: 20px;
+    font-family: 'Josefin Sans', sans-serif;    
+    
+}
+h1{
+    font-family: 'Bree Serif', serif; 
+    margin: 23px;
+
+}
+.blogItem h2{
+    font-family: 'Bree Serif', serif;  
+}
+
+p{
+    font-family: 'Bree Serif', serif;  
+}
+
+.intro{
+    margin:  88px;
+}
+
+.intro h1{
+    font-family: 'Josefin Sans', sans-serif;  
+    margin: 12px;
+   
+    
+}
+.intro p{
+    font-family: 'Bree Serif', serif; 
+    margin: 12px;
+
+}
+.skillcontainer{
+    padding: 12px;
+    
+    font-family: 'Bree Serif', serif; 
+
+    
+}
+
+.skillitem{
+    display: flex;
+    align-items: center;
+    font-family: 'Bree Serif', serif; 
+    
+
+}
+/*font weight use krne se font ka weight increase hoga*/
+
+
+.skill{
+    width: 265px;
+    height: 6px;
+    background-color: rgb(175, 160, 160);
+    border: 2px solid black;
+}
+
+
+.hundred{
+
+    width: 265px;
+    background-color: rgb(233, 152, 152);
+    
+}
+.fifty{
+
+    width: 125px;
+background-color: rgb(63, 63, 88);
+}
+.t5{
+
+    width: 75px;
+    background-color: rgb(105, 82, 105);
+
+}
+.sidebarGo{
+    transform: translate(-443px , 0px);
+    position: absolute;
+
+
+}
+
+
+
+.hamburger{
+    position: absolute;
+    cursor: pointer;
+    top: 10px;
+    left: 10px;
+}
+
+.cross{
+    margin-left: 160px;
+    margin-top: 10px;
+}
+.ham{
+   
+    margin-top: 10px;
+    margin-left: 10px;
+}
+@media (max-widht: 1615px) {
+    *{
+        background-color: red;
+    }}
+
+    .devinfo{
+        font-size: 10px;
+    }
+
+    .devpic{
+        display: none;
+    }
+    .intro, .blogcontainer, .contactform{
+        margin: 50px 8px;
+    }
+
+    .buttons{
+        font-size: 6px;
+    }
+    
+    /*.sidebar{
+        transform: translate(-443px , 0px);
+        position: absolute;
+
+
+    }
+    
+}*/
+
